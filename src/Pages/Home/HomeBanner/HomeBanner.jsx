@@ -1,46 +1,51 @@
 import React from "react";
-import slideOne from "../../../assets/images/slider/slide-1.jpg";
-import slideTwo from "../../../assets/images/slider/slide-2.jpg";
-import slideThree from "../../../assets/images/slider/slide-3.jpg";
 
 const HomeBanner = () => {
   return (
-    <div
-      id="carouselExampleFade"
-      className="carousel slide carousel-fade"
-      data-bs-ride="carousel"
-      style={{ height: '650px' }}
-    >
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={slideOne} className="d-block w-100 custom-style" alt="..."  style={{ height: '650px', objectFit: 'cover' }}/>
+    <section id="hero-10" class="bg--fixed hero-section">
+      <div class="container">
+        <div class="row">
+          {/* <!-- HERO-10 TEXT -->	 */}
+          <div class="col-lg-7">
+            <div class="hero-10-txt color--white">
+              {/* <!-- Title -->	 */}
+              <h2>The Salon That Gives You Style</h2>
+
+              {/* <!-- Text -->	 */}
+              <p>
+                Aliqum mullam blandit tempor diam sapien gravida donec ipsum
+                porta justo velna auctor congue
+              </p>
+
+              {/* <!-- Button -->	 */}
+              <a href="#lnk-1" class="btn btn--gold hover--tra-white">
+                View Salon Menu
+              </a>
+            </div>
+          </div>
+          {/* <!-- END HERO-10 TEXT --> */}
+
+          {/* <!-- HERO-10 SCHEDULE -->	 */}
+          <div class="col-lg-5 align-self-end">
+            <div class="hero-10-schedule color--white text-end">
+              {/* <!-- Title -->	 */}
+              <h5 class="h5-lg">Opening Hours</h5>
+
+              {/* <!-- Text -->		 */}
+              <p>
+                Mon - Fri: <span>9:00AM - 8:00PM</span>
+              </p>
+              <p>
+                Sat - Sun: <span>9:00AM - 6:30PM</span>
+              </p>
+            </div>
+          </div>
+          {/* <!-- END HERO-10 SCHEDULE -->			 */}
         </div>
-        <div className="carousel-item">
-          <img src={slideTwo} className="d-block w-100 custom-style" alt="..."  style={{ height: '650px', objectFit: 'cover' }}/>
-        </div>
-        <div className="carousel-item">
-          <img src={slideThree} className="d-block w-100 custom-style" alt="..."  style={{ height: '650px', objectFit: 'cover' }}/>
-        </div>
+        {/* <!-- End row --> */}
       </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
+      {/* <!-- End container --> */}
+    </section>
   );
 };
 

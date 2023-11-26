@@ -18,8 +18,8 @@ const Home = () => {
   return (
     <div>
       <HomeBanner />
-      <Wizard></Wizard>
-      
+      {/* <Wizard></Wizard> */}
+
       <AboutSection />
       <Services />
       <TrendingSection />
