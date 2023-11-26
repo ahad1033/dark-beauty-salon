@@ -10,10 +10,10 @@ const OurTeam = () => {
           <div className="col-md-10 col-lg-8">
             <div className="section-title text-center mb-6">
               {/* <!-- Section ID --> */}
-              <span className="section-id">From The Blog</span>
+              <span className="section-id color--gold">From The Blog</span>
 
               {/* <!-- Title --> */}
-              <h2 className="h2-title">Meet Our Team</h2>
+              <h2 className="h2-title text-white">Meet Our Team</h2>
             </div>
           </div>
         </div>
@@ -35,13 +35,13 @@ const OurTeam = () => {
               </div>
 
               {/* <!-- BLOG POST TEXT --> */}
-              <div className="blog-post-txt">
+              <div className="blog-post-txt text-white">
                 {/* <!-- Post Tag --> */}
                 <p className="post-tag">News | August 03, 2023</p>
 
                 {/* <!-- Post Link --> */}
                 <h5 className="h5-md post-link">
-                  <a href="single-post.html">
+                  <a className="text-white" href="single-post.html">
                     Quaerat sodales sapien and tempor diam euismod purus
                   </a>
                 </h5>
@@ -72,13 +72,15 @@ const OurTeam = () => {
               </div>
 
               {/* <!-- BLOG POST TEXT --> */}
-              <div className="blog-post-txt">
+              <div className="blog-post-txt text-white">
                 {/* <!-- Post Tag --> */}
                 <p className="post-tag">Trends | July 31, 2023</p>
 
                 {/* <!-- Post Link --> */}
                 <h5 className="h5-md post-link">
-                  <a href="single-post.html">Luctus vitae and egestas</a>
+                  <a className="text-white" href="single-post.html">
+                    Luctus vitae and egestas
+                  </a>
                 </h5>
 
                 {/* <!-- Post Text --> */}
@@ -107,13 +109,13 @@ const OurTeam = () => {
               </div>
 
               {/* <!-- BLOG POST TEXT --> */}
-              <div className="blog-post-txt">
+              <div className="blog-post-txt text-white">
                 {/* <!-- Post Tag --> */}
                 <p className="post-tag">Treatment | July 18, 2023</p>
 
                 {/* <!-- Post Link --> */}
                 <h5 className="h5-md post-link">
-                  <a href="single-post.html">
+                  <a className="text-white" href="single-post.html">
                     Magna aliquam ipsum a vitae purus justo lacus ligula
                   </a>
                 </h5>
