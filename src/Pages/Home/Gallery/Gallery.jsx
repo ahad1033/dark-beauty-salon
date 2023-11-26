@@ -11,10 +11,10 @@ const Gallery = () => {
           <div className="col-md-10 col-lg-8">
             <div className="section-title text-center mb-6">
               {/* <!-- Section ID -->	 */}
-              <span className="section-id">Be a more perfect</span>
+              <span className="section-id color--gold">Be a more perfect</span>
 
               {/* <!-- Title -->	 */}
-              <h2 className="h2-title">Redefine Your Beauty</h2>
+              <h2 className="h2-title text-white">Redefine Your Beauty</h2>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Gallery = () => {
           <div className="col">
             <div className="more-btn">
               {/* <a href="gallery.html" className="btn btn--tra-black hover--black">Visit Our Gallery</a> */}
-              <Link to="/gallery" className="btn btn--tra-black hover--black">
+              <Link to="/gallery" className="btn btn--tra-white hover--gold">
                 Visit Our Gallery
               </Link>
             </div>

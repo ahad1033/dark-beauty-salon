@@ -26,9 +26,9 @@ const TrendingSection = () => {
         <div className="col-md-10 col-lg-8">
           <div className="section-title text-center mb-6">
             {/* <!-- Section ID -->	 */}
-            <span className="section-id">Trending</span>
+            <span className="section-id color--gold">Trending</span>
             {/* <!-- Title -->	 */}
-            <h2 className="h2-title">TRENDING STYLE</h2>
+            <h2 className="h2-title text-white">TRENDING STYLE</h2>
           </div>
         </div>
       </div>

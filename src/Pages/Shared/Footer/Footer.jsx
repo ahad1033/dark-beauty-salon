@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="bottom-footer">
           <div className="row">
             <div className="col">
-              <div className="footer-copyright">
+              <div className="footer-copyright text-white">
                 <p>&copy; 2023 Reine. All Rights Reserved</p>
               </div>
             </div>

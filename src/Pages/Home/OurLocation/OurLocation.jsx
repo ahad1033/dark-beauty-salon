@@ -8,8 +8,8 @@ const OurLocation = () => {
         <div className="row justify-content-center">
           <div className="col-md-10 col-lg-8">
             <div className="section-title text-center mb-6">
-              <span className="section-id">Our Locations</span>
-              <h2 className="h2-title">Welcome to Reine</h2>
+              <span className="section-id color--gold">Our Locations</span>
+              <h2 className="h2-title text-white">Welcome to Reine</h2>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@ const OurLocation = () => {
           </div>
         </div>
 
-        <div className="py-8 ct-table content-section division">
+        <div className="py-8 ct-table content-section division text-white">
           <div className="container">
             <div className="row d-flex align-items-center">
               {/* <!-- TEXT --> */}
@@ -58,22 +58,30 @@ const OurLocation = () => {
                       <tr>
                         <td>Mon – Wed</td>
                         <td> - </td>
-                        <td className="text-end">10:00 AM - 9:00 PM</td>
+                        <td className="text-end text-white">
+                          10:00 AM - 9:00 PM
+                        </td>
                       </tr>
                       <tr>
                         <td>Thursday</td>
                         <td> - </td>
-                        <td className="text-end">10:00 AM - 7:30 PM</td>
+                        <td className="text-end text-white">
+                          10:00 AM - 7:30 PM
+                        </td>
                       </tr>
                       <tr>
                         <td>Friday</td>
                         <td> - </td>
-                        <td className="text-end">10:00 AM - 9:00 PM</td>
+                        <td className="text-end text-white">
+                          10:00 AM - 9:00 PM
+                        </td>
                       </tr>
                       <tr className="last-tr">
                         <td>Sun - Sun</td>
                         <td>-</td>
-                        <td className="text-end">10:00 AM - 5:00 PM</td>
+                        <td className="text-end text-white">
+                          10:00 AM - 5:00 PM
+                        </td>
                       </tr>
                     </tbody>
                   </table>
