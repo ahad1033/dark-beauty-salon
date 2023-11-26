@@ -3,7 +3,7 @@ import AboutSection from "../Home/AboutSection/AboutSection";
 import Services from "../Home/Services/Services";
 import OurLocation from "../Home/OurLocation/OurLocation";
 import HeaderSection from "../../Component/HeaderSection/HeaderSection";
-import img from "../../../src/assets/images/banner-1.jpg";
+import img from "../../../src/assets/images/hero/hero-bg-10.jpg";
 import AllServicesPrice from "./AllServicesPrice";
 
 const ServicePage = () => {

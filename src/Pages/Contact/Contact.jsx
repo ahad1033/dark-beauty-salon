@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import HeaderSection from "../../Component/HeaderSection/HeaderSection";
-import img from "../../../src/assets/images/banner-1.jpg";
+import img from "../../../src/assets/images/hero/hero-bg-10.jpg";
 
 const Contact = () => {
   return (
     <div>
       <HeaderSection
         backgroundImage={img}
-        heading="Services"
+        heading="Contacts"
         subHeading="Our Services"
       />
       <section className="contact-section">
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
             <div className="row">
               <div className="col-12">
-                <h2 className="contact-title">Get in Touch</h2>
+                <h2 className="contact-title text-white">Get in Touch</h2>
               </div>
               <div className="col-lg-8">
                 <form
@@ -94,7 +94,7 @@ const Contact = () => {
                   <div className="">
                     <Link
                       href="gallery.html"
-                      className="btn btn--tra-black hover--black"
+                      className="btn btn--tra-white hover--gold"
                     >
                       Send
                     </Link>
@@ -107,7 +107,9 @@ const Contact = () => {
                     <i className="ti-home"></i>
                   </span>
                   <div className="media-body">
-                    <h3 className="fw-bold fs-5">Buttonwood, California.</h3>
+                    <h3 className="fw-bold fs-5 text-white">
+                      Buttonwood, California.
+                    </h3>
                     <p>Rosemead, CA 91770</p>
                   </div>
                 </div>
@@ -116,7 +118,7 @@ const Contact = () => {
                     <i className="ti-tablet"></i>
                   </span>
                   <div className="media-body">
-                    <h3 className="fw-bold fs-5">+1 253 565 2365</h3>
+                    <h3 className="fw-bold fs-5 text-white">+1 253 565 2365</h3>
                     <p>Mon to Fri 9am to 6pm</p>
                   </div>
                 </div>
@@ -125,7 +127,9 @@ const Contact = () => {
                     <i className="ti-email"></i>
                   </span>
                   <div className="media-body">
-                    <h3 className="fw-bold fs-5">support@colorlib.com</h3>
+                    <h3 className="fw-bold fs-5 text-white">
+                      support@colorlib.com
+                    </h3>
                     <p>Send us your query anytime!</p>
                   </div>
                 </div>
